@@ -1,0 +1,72 @@
+baseURL: "narsimha-me.github.io"
+title: Narsimha Reddy
+paginate: 5
+theme: PaperMod
+params:
+  env: production 
+  title: Narsimha Reddy
+  description: "Programmer"
+  keywords: [Blog, Portfolio, Machine Learning, Deep Learning, Computer Vision, Full Stack Web Development]
+  author: Me
+  images: []
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto 
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  showtoc: false
+  tocopen: false
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+  profileMode:
+    enabled: true 
+    title: Narsimha Reddy
+    subtitle: Computer Science Graduate, Year '22
+    imageUrl: /image.jpg
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+  ShareButtons: ["linkedin", "twitter","whatsapp"] 
+  socialIcons:
+    - name: linkedin
+      url: "https://linkedin.com/in/narsimha-reddy"
+    - name: github
+      url: "https://github.com/narsimha-me"
+    - name: Resume
+      url: "#"
+    - name: twitter
+      url: "https://twitter.com/narsimhareddy__"
+  cover:
+    hidden: true 
+    hiddenInSingle: true 
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /Projects/
+      weight: 10
+    - identifier:  blog
+      name: Blog
+      url: https://medium.com/@narsimha.reddy
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
