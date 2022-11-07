@@ -1,4 +1,4 @@
-baseURL: "narsimha-me.github.io"
+baseURL: "https://narsimha-me.github.io"
 title: Narsimha Reddy
 paginate: 5
 theme: PaperMod
