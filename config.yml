@@ -5,8 +5,8 @@ theme: PaperMod
 params:
   env: production 
   title: Narsimha Reddy
-  description: "Programmer"
-  keywords: [Blog, Portfolio, Machine Learning, Deep Learning, Computer Vision, Full Stack Web Development]
+  description: "Computer Science Graduate"
+  keywords: [Blog, Portfolio,Linkedin,Twitter, Github, Machine Learning, Deep Learning, Computer Vision, Full Stack Web Development]
   author: Me
   images: []
   DateFormat: "January 2, 2006"
@@ -31,8 +31,8 @@ params:
     title: Narsimha Reddy
     subtitle: Computer Science Graduate, Year '22
     imageUrl: /image.jpg
-    imageWidth: 150
-    imageHeight: 150
+    imageWidth: 120
+    imageHeight: 120
     imageTitle: my image
     buttons:
       - name: Posts
@@ -48,7 +48,7 @@ params:
     - name: Resume
       url: "#"
     - name: twitter
-      url: "https://twitter.com/narsimhareddy__"
+      url: "https://twitter.com/okkamaata"
   cover:
     hidden: true 
     hiddenInSingle: true 
